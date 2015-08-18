@@ -32,6 +32,22 @@ title: Projects
 <p>Screenshots</p>
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/7BSkp"><a href="//imgur.com/a/7BSkp">Changes in Financial Statements</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 </div>
+
+<div class="stock">
+<h3>Stock.java/h3>
+<p>A stock class for java. Pulls the data off using the Yahoo finance API</p>
+<p>Simply enter in the ticker for an equity and you're good to go. The data can be accessed in JSON or in a LinkedHashMap</p>
+<p><a href="https://github.com/adubashi/StockJava">Github Link</a></p>
+<code>
+<p> Stock AAPL = new Stock("AAPL");</p>
+<p> AAPL.generateStockJSON();</p>
+<p> JSONObject apple = AAPL.getStockJSON();</p>
+<p> AAPL.generateStockLinkedHashMap(); </p>
+<p> LinkedHashMap<String, String> hash = AAPL.getStockLinkedHashMap();</p>
+</code>
+
+
+</div>
 	
 	
 </div><!-- /.resume -->
